@@ -17,6 +17,8 @@ body{
 
 }
 .square{
+    font-size: 30pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style:double ;
     border-color: #36526d;
     color: #00000000;
