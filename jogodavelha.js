@@ -3,12 +3,12 @@ var playerLabel = document.getElementById("jogador")
 
 function squareChoser(evt){
     if((player % 2) == 0){
-        playerLabel.innerText="Jogador 01";
+        playerLabel.innerText="Jogador 02";
         evt.currentTarget.style.background="#BF3C30";
         player++;
     }
     else{
-        playerLabel.innerText="Player 02";
+        playerLabel.innerText="Jogador 01";
         evt.currentTarget.style.background="#9AEBA3";
         player--;
     }
