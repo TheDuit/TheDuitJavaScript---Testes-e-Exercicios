@@ -1,0 +1,74 @@
+button{
+    color: #d0e6fa;
+    background-color:#294057;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border-style:  none;   
+    filter: drop-shadow(5px 2px 7px #15202b);
+}
+
+
+h1{
+    background-color: #d0e6fa;
+    height: 40px;
+    color: #294057;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #22303b;
+    text-align: center;
+}
+.background{
+    padding-bottom: 5px;
+    background-color: #54738f;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+
+}
+.square{
+    font-size: 30pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style:double ;
+    border-color: #36526d;
+    color: #00000000;
+    background-color: #d0e6fa;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+    border-radius: 10px;
+    filter:drop-shadow(5px 2px 7px #15202b)    
+}
+
+.square:hover{
+    background-color: #b0d4f7;
+    width: 55px;
+    height: 55px;
+    margin: 1px;
+    transition: 0.2s;
+    filter:drop-shadow(0px 0px 8px  #e0f3ff)    
+}
+.ninho{
+    margin: 15px;
+}
+.jogador, .vencedor{
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: #536d85;
+    width: 90%;
+    height: 30;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.vencedor{
+    background-color: tomato;
+    visibility: hidden;
+}
